@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+/* a{
+    text-decoration: none;
+} */
+body{
+    margin: 0;
+    font-family: soleil,Helvetica,Arial,sans-serif;
+}
+
+input[type=text],input[type=password] {
+
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 16px;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+
+
+/* set button style all butoon */
+.loginBtn {
+    background-color:black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+#sign101{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 500px;
+    border: 1px solid rgb(168, 162, 162);
+    margin: auto;
+    margin-top: 75px;
+    align-items: center;
+    text-align: center;
+    /* justify-content: center; */
+}
+
+.signInName{
+    font-size: 20px;
+    font-weight: 600;
+}
+.container {
+    /* padding: 16px; */
+    display: flex;
+    flex-direction: column;
+}
+span.psw{
+    margin-left: -350px;
+    /* margin-right: 55px; */
+}
+.forget{
+    margin-left: 115px;
+}
+.nowSingup1{
+    font-size: 16px;
+    padding-bottom: -15px;
+    text-decoration: none;
+}
+.signupNow{
+  /* margin-bottom: -25px; */
+  display: flex;
+  margin-top: -25px;
+  margin-left: 45px;
+  /* align-items: center; */
+  /* text-align: center; */
+}
+.googleText{
+    font-size: 15px;
+}

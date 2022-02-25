@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login.html</title>
+    <link rel="stylesheet" href="login.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="index.css"> -->
+</head>
+<body>
+    <div id="navbarContainer">
+
+    </div>
+      <div id="sign101" class="siginModal">
+          <form action="" class="modalContent  animate">
+              <div class="signInText">
+                  <!-- <span onclick="document.getElementById('sign101').style.display='none'" class="close">&times;</span> -->
+                   <p  class="signInName">Sign In</p>
+              </div>
+               <div class="container"> 
+                    <input type="text" id="email" placeholder="Enter your email" name="email" required>
+                    <input type="password" id="password" placeholder="Enter password" name="psw" required>
+                     <span class="psw"><input type="checkbox" class="checkBox" checked="checked" name="remember">Remember me<a  class="forget" href="#">Forgot password?</a></span>
+                   <button id="clickBtn"   class="loginBtn" onclick="logIn(event)">SIGN IN</button>
+                   <p class="googleText">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
+               </div>
+               <hr>
+               <br>
+               <br>
+               <div class="signupNow">
+                    <span class="nowSignup">Don't have an account?<a class="nowSingup1" href="signup.html">SIGN UP NOW</a></span>
+                
+               </div>
+          </form>
+      </div>
+      <div id="footerPage">
+
+    </div>
+</body>
+</html>
+<script src="login.js"></script>
