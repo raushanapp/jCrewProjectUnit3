@@ -1,0 +1,1078 @@
+
+/* navbar css start  */
+* {
+    box-sizing: border-box;
+}
+/* a{
+    text-decoration: none;
+} */
+body{
+    margin: 0;
+    font-family: soleil,Helvetica,Arial,sans-serif;
+}
+#jcreImage{
+    width: 85px;
+    /* padding: 1px; */
+}
+#navbarContainer{
+  /* overflow: hidden; */
+  /* float: left; */
+  display: flex;
+  border: 1px solid rgb(196, 191, 183) ;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  gap: 20%;
+  width: 1350px;
+ padding: 15px 20px;
+ position: fixed;
+ background: white;
+ z-index: 1;
+ top: 0px;
+}
+
+#navbar {
+    display: flex;
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    /* padding: 5px; */
+}
+/* second box css start */
+#inavbarBox1{
+    display: flex;
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: space-between;
+    width: 32%;
+    /* padding: 10px; */
+}
+#sign101{
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+#Icon{
+    display: flex;
+    border: 1px solid rgb(196, 187, 187);
+    height: 40px;
+    gap: 5px;
+    justify-content: space-around;
+    align-items: center;
+    width: 45%;
+    /* padding: 5px; */
+}
+#inputSerach{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    width: 144px;
+}
+.fa-search{
+    font-size: 25px;
+    /* padding: 15px; */
+    /* padding-bottom: -25px; */
+    /* padding: 2px; */
+}
+.fa-heart ,.fa-bag-shopping{
+    font-size:25px ;
+    cursor: pointer;
+}
+.bagCart1{
+    display: flex;
+}
+#cartCount {
+    /* border: 1px solid blue; */
+    background-color: rgb(40, 40, 201);
+    color: rgb(250, 250, 250);
+    width: 25px;
+    height: 20px;
+    /* font-size: 15px; */
+    padding: 5px 9px;
+    border-radius: 50%;
+    margin-left: -23px;
+}
+#sigin{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: none;
+    font-size: 22px;
+}
+/* .faPtag {
+    font-size:px;
+}  */
+
+/* second box css end */
+
+#navbarContainer  a{
+    float: left;
+    /* font-size: 16px; */
+    text-align: center;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.newDropDown{
+    float: left;
+    overflow: hidden;
+}
+.newDropDown .droBtn{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+}
+ .newDropDown:hover .droBtn {
+    border-bottom: 2px solid black;
+}
+.newDropDown:hover .redBtn {
+    border-bottom: 2px solid red;
+}
+#butn{
+    color: red;
+}
+
+.dropDownContent {
+    display: none;
+    position: absolute;
+    background-color:#fdfdfd; 
+    width: 100%;
+    left: 0;
+    height: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+    z-index: 1;
+}
+.newDropDown:hover .dropDownContent {
+    display: block;
+    height: 650px;
+}
+
+ /* Create three equal columns that floats next to each other */
+ .column {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    text-align: justify;
+    /* line-height: 15px; */
+    /* display: flex; */
+    /* background-color: #ccc; */
+    /* height: 250px; */
+  }
+  
+  .column a{
+    float: none;
+    /* color: black; */
+    padding: 16px;
+    /* text-decoration: none; */
+    /* display: block; */
+    display: flex;
+    text-align: justify;
+    height: 35px;
+  }
+  
+   .styleText{
+       font-size: 15px;
+       font-weight: 300;
+       color: rgb(162, 170, 170);
+    text-align: left;
+
+   }
+   .headerText{
+       font-size: 22px;
+       font-weight: 400;
+    text-align: left;
+
+   }
+  .column .ptag:hover ,.ptag1:hover ,.ptag2:hover ,.ptagRed:hover {
+    text-decoration: underline;
+  }
+  .ptag {
+      line-height: 18px;
+      font-size: 13px;
+      text-align: justify;
+   }
+   .ptag2{
+    line-height: 18px;
+    font-size: 13px;
+    text-align: justify;
+    font-weight: bold;
+   }
+   .ptagRed{
+    line-height: 18px;
+    font-size: 13px;
+    text-align: justify;
+    color: red;
+    font-weight: bold;
+
+   }
+  .ptag1{
+      font-size: 13px;
+      text-align: justify;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    align-items: center;
+
+  }
+
+  .imageTage {
+      width: 200px;
+      height: 250px;
+   }
+   .imageTage1 {
+    width: 130px;
+    height: 140px;
+ }
+  .imageBook{
+      display: flex;
+      /* flex-direction: row-revers; */
+      /* border: 1px solid red; */
+      gap: 10px;
+      /* margin-left: 150px; */
+      margin-top: 10px;
+      align-items: center;
+      /* align-items: center; */
+      /* flex-direction: column; */
+    }
+    .imageBook1{
+        display: flex;
+        /* flex-direction: row-revers; */
+        /* border: 1px solid red; */
+        gap: 10px;
+        /* margin-left: 150px; */
+        margin-top: 10px;
+        align-items: center;
+        /* text-align: justify; */
+        /* align-items: center; */
+        /* flex-direction: column; */
+      }
+
+  
+
+/* navbar css end  */
+
+
+/* have text css start */
+    .canhelp{
+        /* border: 1px solid red; */
+        width: 30%;
+        height: 45px;
+        margin: auto;
+        margin-top: 75px;
+        text-align: center;
+    }
+    .helpyou{
+        font-weight: 600;
+    }
+    .bigPicture{
+        display: flex;
+        /* border: 1px solid green; */
+        width: 100%;
+        height: 580px;
+        /* align-items: center;
+        justify-content: center; */
+        margin-top: 30px;
+        background-image: url("https://www.jcrew.com/brand_creative/homepage2022/03-Mar2/2022mar_0222_hp_w_img0.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .since1983{
+        /* border: 1px solid white; */
+         width: 55%;
+         height: 300px;
+         margin: auto;
+        /* align-items: center; */
+        text-align: center;
+        color: white;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+
+    }
+    .best{
+        font-size: 60px;
+        /* top: 0px; */
+        height: 20px;
+    }
+    .since{
+        font-size: 35px;
+    }
+    .classic{
+        font-size: 20px;
+    }
+    .hopThe{
+        font-size: 18px;
+        text-decoration: underline;
+    }
+/* have text css end */
+
+/* grid image six css start */
+.gridImage{
+    display: grid;
+    gap: 0px;
+    /* border: red 1px solid ; */
+    grid-template-rows:repeat(3, 700px);
+    grid-template-columns: repeat(2,600px);
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+    margin-top: 40px;
+}
+
+.gridImage  div{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    cursor: pointer;
+}
+.imag1{
+  background-image: url('https://www.jcrew.com/brand_creative/homepage2022/03-Mar2/2022mar_0222_hp_w_img1.jpg');
+  background-repeat: no-repeat;
+  /* background-position: fixed; */
+  background-size: 100% 100%;
+}
+.getDresse{
+    /* display: flex; */
+    /* border: 2px solid rgb(41, 37, 37); */
+    width: 10%;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+.get1{
+    font-size: 65px;
+    height: 22px;
+}
+.get2{
+    font-size: 22px;
+}
+.get3{
+    /* text-decoration: underline; */
+   text-decoration:underline;
+   /* text-decoration: wavy; */
+    font-weight: 400;
+    line-height: 2px;
+}
+.imag2{
+    background-image: url('https://www.jcrew.com/brand_creative/homepage2022/03-Mar2/2022mar_0222_hp_w_img2.jpg');
+    background-repeat: no-repeat;
+    /* background-position: fixed; */
+    background-size: 100% 100%;
+}
+#newLiberty{
+    display: flex;
+    /* border: 2px solid brown; */
+    width: 50%;
+    height: 180px;
+    /* justify-content: ; */
+    /* align-items: center; */
+    margin: auto;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    margin-top:370px;
+    text-align: center;
+}
+.loves{
+    font-size: 30px;
+    height: 12px;
+}
+.shopNew{
+    text-decoration: underline;
+    font-weight: 500;
+}
+.imag3{
+    background-image: url('https://www.jcrew.com/brand_creative/homepage2022/03-Mar2/2022mar_0222_hp_w_img3.jpg');
+    background-repeat: no-repeat;
+    /* background-position: fixed; */
+    background-size: 100% 100%;
+}
+#elevate2{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    margin-top:320px;
+
+}
+.elevate{
+    font-size: 35px;
+    height: 12px;
+}
+.elevate1{
+    font-weight: 700;
+    text-decoration: underline;
+}
+.imag4{
+    background-image: url('https://www.jcrew.com/brand_creative/homepage2022/03-Mar2/2022mar_0222_hp_w_img4.jpg');
+    background-repeat: no-repeat;
+    /* background-position: fixed; */
+    background-size: 100% 100%;
+}
+.imag5{
+    background-image: url('https://www.jcrew.com/brand_creative/homepage2022/03-Mar2/2022mar_0222_hp_w_img5.jpg');
+    background-repeat: no-repeat;
+    /* background-position: fixed; */
+    background-size: 100% 100%;
+}
+#elevate3{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid brown; */
+    width: 68%;
+    height: 250px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 300px;
+}
+.elevate4{
+    font-size: 35px;
+    height: 30px;
+}
+.elevate5{
+    text-decoration: underline;
+    font-weight: 700;
+}
+.imag6{
+    background-image: url('https://www.jcrew.com/brand_creative/homepage2022/03-Mar2/2022mar_0222_hp_w_img6b.jpg');
+    background-repeat: no-repeat;
+    /* background-position: fixed; */
+    background-size: 100% 100%;
+}
+#elevate6{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid brown; */
+    width: 90%;
+    height: 250px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 300px;
+}
+.elevate7{
+    font-size: 35px;
+    height: 12px;
+}
+.elevate8{
+    font-size: 21px;
+    height: 12px;
+}
+.elevate9{
+    text-decoration: underline;
+    font-weight: 700;
+}
+/* grid image six css end */
+
+/* new arrivals button css start  */
+.shopNewArrivals{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 900px;
+    height: 100px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+.shopText1{
+    font-size: 22px;
+}
+.shopWomenText{
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.shopWomen1,.shopmen1,.shopGirls1,
+.shopBoy1{
+    display: flex;
+    border: 1px solid rgb(165, 159, 159);
+    width: 15%;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.shopWomen1:hover,.shopmen1:hover,.shopGirls1:hover,
+.shopBoy1:hover {
+    background-color: rgb(83, 72, 72);
+    color: white;
+
+}
+/* new arrivals button css end */
+
+/* the spring lookBook css start */
+#springThe{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 1348px;
+    height: 340px;
+    margin-top: 20px;
+    background-image: url('https://www.jcrew.com/brand_creative/homepage2022/02-Feb/2022feb_0125_hp_w_lookbook_img0.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    justify-content: right;
+
+}
+.bookLook{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid brown; */
+    width: 22%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    /* align-items: flex-end; */
+}
+.theSpring{
+    font-size: 45px;
+    height: 25px;
+    /* font-weight: none; */
+    /* text-align: justify; */
+}
+.look1{
+    font-size: 35px;
+    margin-left: -138px;
+    height: 22px;
+}
+.comingSoon{
+    font-size: 21px;
+    height: 18px;
+}
+.getInspired{
+    font-weight: 600;
+    text-decoration: underline;
+    margin-left: -200px;
+
+}
+/* the spring lookBook css end */
+
+/* creativity css start  */
+.creative{
+    display: flex;
+    /* border: 1px solid red; */
+    /* margin-left: 5px; */
+    margin-top: 45px;
+    width: 800px;
+    height: 75px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.creativeText{
+    font-size: 17px;
+}
+.itlic{
+    font-weight: 400;
+}
+/* creativity css end */
+
+/* grid tempelet area css start */
+#girdArea {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid brown; */
+    background-color: rgb(210,193,206);
+    width: 1349px;
+    height: 1500px;
+    margin-top: 150px;
+}
+
+.bothDiv{
+    display: flex;
+    flex-direction: column;
+    /* border: black 1px solid ; */
+    width: 70%;
+    height: 700px;
+    /* margin: auto; */
+    margin-top: -145px;
+    margin-left: 240px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding: 5px;
+    
+}
+#line{
+    display: flex;
+    /* border: black 1px solid ; */
+    width: 85%;
+   height: 100%;
+   flex-direction: column;
+
+}
+#line2{
+    width: 65%;
+    /* border: black 1px solid ; */
+
+}
+.bothImage{
+    width: 77%;
+    height: 630px;
+
+}
+.remixShop{
+    font-size: 28px;
+    height: 50px;
+
+}
+.remixshop1{
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+/* grid tempelet area css end */
+
+/* studio hours css starts */
+#studioHour{
+    display: flex;
+    /* flex-direction: column; */
+    margin-left: 240px;
+    align-items: center;
+    /* border: rgb(109, 51, 51) 1px solid ; */
+    width: 70%;
+    gap: 10px;
+    height: 580px;
+}
+.theEdit1,.denimBtn{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid rgb(26, 27, 23); */
+    width: 28%;
+    height: 75%;
+    padding: 5px;
+}
+.theEditsImage,.denimBtnImage{
+    width: 100%;
+    height: 70%;
+}
+.editsText1,.denimBtnText1{
+    font-size: 25px;
+    height: 25px;
+}
+.editstext2,.denimBtntext2{
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+.floraObscura{
+    display: flex;
+    /* flex-direction: column; */
+    /* border: 1px solid rgb(26, 27, 23); */
+    width: 42%;
+    height: 90%;
+    padding: 5px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -280px;
+}
+.floraObscuraImage{
+    width: 100%;
+    height: 76%;
+}
+
+.floraObscuraText1{
+    font-size: 32px;
+    height: 28px;
+}
+.floraObscuratext2{
+    font-weight: 600;
+    text-decoration: underline;
+    margin-left: -120px;
+    text-decoration-thickness: 2px;
+}
+  
+/* studio hours css end */
+
+/* rethink pink css start  */
+.gridDiv3{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 55%;
+    height: 500px;
+    gap: 1%;
+    /* margin: auto; */
+    margin-left: 238px;
+    align-items: center;
+    padding: 5px;
+}
+.stylistBric {
+    display: flex;
+    /* border: 1px solid yellow; */
+    width: 33%;
+    height: 100%;
+    flex-direction: column;
+}
+.stylistBric1 {
+    display: flex;
+    /* border: 1px solid yellow; */
+    width: 33%;
+    height: 100%;
+    flex-direction: column;
+
+}
+.stylistBric2 {
+    display: flex;
+    /* border: 1px solid yellow; */
+    width: 33%;
+    height: 100%;
+    flex-direction: column;
+
+}
+.stlistBricImage{
+    width: 100%;
+    height: 75%;
+}
+.bricText{
+    font-size: 23px;
+    height: 50px;
+}
+.rethinkText{
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+.bricText1{
+    font-size: 23px;
+    height: 25px;
+}
+.rethinkText1{
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+/* rethink pink css end */
+
+/* instagram css start  */
+.ourInstagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    width: 25%;
+    height: 35px;
+    margin: auto;
+    margin-top: 55px;
+
+
+}
+.insta{
+    font-size: 30px;
+    font-weight: 500;
+}
+.inJcrew{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    width: 25%;
+    height: 35px;
+    margin: auto;
+    margin: top 10px;
+
+
+}
+.joinCrew{
+    font-size: 18px;
+}
+/* instagram css end */
+
+/* insta image css start  */
+.instaImag1{
+    display: flex;
+    /* border: 1px solid red; */
+    align-items: center;
+    padding: 8px;
+    margin: auto;
+    margin-top: 15px;
+    width: 90%;
+    height: 380px;
+    gap: 2%;
+}
+.instaImag1  div{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 100%;
+}
+.imageInsta{
+    width: 100%;
+    height: 100%;
+}
+
+/* insta image css end */
+
+/* women shop image css start */
+.instaImag1Women{
+    display: flex;
+    /* border: 1px solid red; */
+    align-items: center;
+    padding: 8px;
+    margin: auto;
+    margin-top: 15px;
+    width: 95%;
+    height: 290px;
+    gap: 1%;
+}
+
+.instaImag1Women  div{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.imageInsta1{
+    width: 100%;
+    height: 80%;
+}
+.remixshop2{
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+/* women shop image css start */
+
+/* recently viewed css start */
+.instaRecent{
+    font-size: 16px;
+    font-weight: 600;
+}
+.recentViewDiv{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 90%;
+    height: 280px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 25px; 
+}
+/* recently viewed css end*/
+
+/* footer css start */
+    /* logo of socal media css start */
+    #logInstCall{
+        display: flex;
+        /* border: 1px solid red; */
+        width: 40%;
+        height: 65px;
+        /* grid-area: 0.5%; */
+        align-items: center;
+        margin: auto;
+    }
+    #logInstCall div{
+        display: flex;
+        /* border: 1px solid blue; */
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .tiwtterLog{
+        background: none;
+        outline: none;
+        border: none;
+    }
+    .tiwtterId{
+        font-weight: 600;
+        font-size: 15px;
+        margin-left: -50px;
+    }
+    .tiwtterId:hover {
+        border-bottom: 1px solid black;
+    }
+    .twitterLogo,.fa-phone,.fa-envelope{
+        font-size: 25px;
+    }
+    /* logo of socal media css end */
+
+    /* help about quiks lins css start */
+    .gridFourcoloumn{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        /* border: 1px solid red; */
+        width: 1349px;
+        background-color: rgb(240,241,242);
+        height: 800px;
+        align-items: center;
+       
+
+    }
+
+    .footerBox1{
+        display: flex;
+        /* border: 1px solid blue; */
+        width: 100%;
+        height: 65%;
+        gap: 18px;
+        align-items: center;
+        justify-content:center;
+        margin-top: 45px;
+        /* position: fixed;
+        bottom: 0; */
+        
+    }
+    .footerBox1 div{
+        /* border: 1px solid brown; */
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: inherit;
+    }
+    .helpDesk {
+        flex: 2;
+        padding-left: 65px;
+    }
+    .quicksLinks{
+        flex: 2;
+    }
+    .aboutJcrew{
+        flex: 2;
+    }
+    .LikeBeingFirst{
+        flex: 4;
+        /* align-items: center; */
+        padding-left: 90px;
+        /* text-align: right; */
+    }
+    #searchEmail1{
+        display: flex;
+        /* border: 1px solid red; */
+        height: 45px;
+        width: 85%;
+        padding: -150px;
+        /* align-items: flex-start; */
+        /* justify-items: left; */
+        /* margin-left: -120px; */
+    }
+    .enterEmail2{
+        width: 75%;
+        margin-left: -28px;
+        height: 35px;
+        font-size: 15px;
+        padding-left: 5px;
+    }
+    .searchenterMail{
+        background: none;
+        border: none;
+        height: 35px;
+        color: white;
+        background-color: black;
+        font-size: 15px;
+        padding: 8px;
+        cursor: pointer;
+    }
+    .helpDeskText1{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .helpDeskText{
+        font-size: 15px;
+        /* font-weight: 600; */
+    }
+    .helpDeskText:hover{
+        /* border-bottom: 1px solid black; */
+        text-decoration: underline;
+    }
+    /* help about quiks lins css end */
+    /* box2 footer css start */
+    #footerBox2{
+        display: flex;
+        /* align-items: center; */
+        /* margin: 0px; */
+        flex-direction: column;
+        /* border: 1px solid red; */
+        width: 40%;
+        height: 45%;
+        margin-left: -800px;
+        gap: 10%;
+    }
+    .logoYoutube {
+        display: flex;
+        /* border: green solid 1px ; */
+        width: 70%;
+        height: 23%;
+        align-items: center;
+        /* padding-left: -15px; */
+        justify-content: space-around;
+    }
+    .coraLogo{
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+    .fa-instagram,.fa-facebook,.fa-twitter,
+    .fa-linkedin, .fa-pinterest,.fa-youtube-square{
+        font-size: 25px;
+    }
+
+    .indiaFlagLog {
+        display: flex;
+        /* border: green solid 1px ; */
+        width: 40%;
+        height: 23%;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .indiaImage{
+        width: 120px;
+        height: 55px;
+    }
+    .indiaText{
+        text-decoration: underline;
+        font-weight: 600;
+    }
+
+    .jXCrewLogo2 {
+        display: flex;
+        /* border: green solid 1px ; */
+        width: 45%;
+        height: 23%;
+        align-items: center;
+        padding: 5px;
+        justify-content: space-around;
+    }
+    .crewDeinSwim{
+        width: 120px;
+        height: 55px;
+        cursor: pointer;
+    }
+    .numberTextDiv{
+        display: flex;
+        /* border: green solid 1px ; */
+        width: 40%;
+        height: 23%;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .numberText1{
+        font-size: 15px;
+        font-weight: 600;
+        color: rgb(119, 111, 111);
+    }
+    /* box2 footer css end */
+/* footer css end */
